@@ -1,2 +1,17 @@
-# qacart-app-todo
-A complete Todo application that i use for QAcart courses
+API Testing Project using Postman
+
+This project focuses on API testing for a Todo application using Postman.
+It covers creating and executing requests, validating responses, and automating checks using Postman scripts.
+
+What I practiced
+API testing for application endpoints
+CRUD operation validation
+Environment and collection variables
+Dynamic/random test data
+Pre-request scripts
+Test scripts and assertions
+Collection Runner
+Basic CLI/CI execution workflow
+Goal
+
+To simulate a real QA API testing workflow and strengthen practical skills in Postman-based API validation and automation.
