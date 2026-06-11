@@ -4,12 +4,17 @@ on:
   push:
     branches: [main]
 
+  workflow_dispatch:
+
 jobs:
   newman-run:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - name: Install Newman
         run: npm install -g newman
+
       - name: Run Postman Collection
         run: newman run "Todo QAcart Project.postman_collection.json"
