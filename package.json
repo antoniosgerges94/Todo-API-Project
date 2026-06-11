@@ -1,0 +1,13 @@
+{
+  "name": "todo-api-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run \"Todo QAcart Project.postman_collection.json\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
